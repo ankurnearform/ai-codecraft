@@ -1,0 +1,5 @@
+prompts:
+  ddl:
+    description: "Generate a SQL Data Definition Language (DDL) script for the following specifications:"
+  dbt:
+    description: "Generate DBT models including staging, integrated, and prepared layers according to the specifications below:"
