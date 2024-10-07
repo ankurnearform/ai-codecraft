@@ -38,3 +38,51 @@ To run the script with the required arguments, use the following command in your
 
 ```bash
 python codecraft.py --jira_url="https://yourjira.example.com/browse/ISSUE-123" --template="DDL"
+```
+
+## Example Template 1 - Generating DDL Scripts:
+
+To generate DDL scripts, follow these steps:
+
+1) Obtain the Jira issue URL that contains the DDL template specifications.
+
+ Jira Issue Link: https://genaiprojects.atlassian.net/browse/SCRUM-1
+
+ <img width="1718" alt="Screenshot 2024-10-05 at 5 34 09 PM" src="https://github.com/user-attachments/assets/ebbb0cd6-c714-415e-9617-978d899e970d">
+
+2) Run the Code Generator script using the Jira URL:
+
+```bash
+python codecraft.py --jira_url="https://genaiprojects.atlassian.net/browse/SCRUM-1" --template="ddl"
+```
+<img width="1581" alt="Screenshot 2024-10-05 at 5 33 15 PM" src="https://github.com/user-attachments/assets/b4d12fc3-c8bd-4c07-962a-e12f968722e6">
+
+3) View the generated DDL script output.
+
+<img width="332" alt="Screenshot 2024-10-05 at 5 33 27 PM" src="https://github.com/user-attachments/assets/297121e1-85c3-4f38-878e-d45c8586411b">
+
+## Example Template 2 - Generating DBT Model Scripts:
+
+To generate DBT model scripts, follow these steps:
+
+1) Obtain the Jira issue URL that contains the DBT model specifications.
+
+ Jira Issue Link: https://genaiprojects.atlassian.net/browse/SCRUM-2
+
+ <img width="1693" alt="Screenshot 2024-10-06 at 7 22 20 PM" src="https://github.com/user-attachments/assets/15832b1d-d584-4feb-ba82-922c93648744">
+
+
+2) Run the Code Generator script using the Jira URL:
+
+```bash
+python codecraft.py --jira_url="https://genaiprojects.atlassian.net/browse/SCRUM-2" --template="dbt"
+```
+<img width="1408" alt="Screenshot 2024-10-06 at 10 28 15 PM" src="https://github.com/user-attachments/assets/39dc2290-9699-48fb-a54e-c1554eb1b217">
+
+3) View the generated DBT Models output.
+
+<img width="530" alt="Screenshot 2024-10-06 at 10 28 57 PM" src="https://github.com/user-attachments/assets/ee284c87-341d-4670-9921-318a9a41ee92">
+
+
+
+
