@@ -38,7 +38,7 @@ def main():
             print(f"Processing DBT template for Jira issue {issue_key}...")
             generate_dbt_model(generator,prompt)
         else:
-            print("No valid template specified. Please choose either 'ddl' or 'dbt'.")
+            print("No valid template specified. Please choose the right template")
     else:
         print("Failed to fetch details from Jira.")
 
