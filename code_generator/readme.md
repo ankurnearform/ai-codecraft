@@ -5,7 +5,7 @@ This project, Code Craft, automates the generation of code based on predefined t
 
 ## Key Features
 - **Template Management**: Manage and customize code templates.
-- **Dynamic Code Generation**: Generate code dynamically based on user inputs and configurations.
+- **Dynamic Code Generation**: Generate code dynamically based on user story inputs and system prompts.
 - **Integration Support**: Easily integrate with existing development workflows and IDEs.
 
 ## Installation
